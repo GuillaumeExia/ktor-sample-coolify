@@ -8,7 +8,10 @@ import io.ktor.server.freemarker.*
 fun Application.configureRouting() {
     routing {
         get("/") {
-            call.respond(FreeMarkerContent("index.ftl", mapOf("message" to "Hello, FreeMarker!")))
+            call.respond(FreeMarkerContent("index.ftl", mapOf(
+                "message" to "Welcome to Your Ktor Application",
+                // Add more variables as needed
+            )))
         }
     }
 }
