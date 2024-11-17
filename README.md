@@ -45,7 +45,7 @@ A modern web application built with Ktor, featuring FreeMarker templating and a 
 1. Clone the repository:
 ```bash
 git clone https://github.com/GuillaumeExia/ktor-sample-coolify.git
-cd ktor-sample
+cd ktor-sample-coolify
 ```
 
 2. Run the application:
@@ -128,4 +128,3 @@ Project Link: [https://github.com/GuillaumeExia/ktor-sample-coolify](https://git
 - [Ktor Documentation](https://ktor.io/docs)
 - [FreeMarker Documentation](https://freemarker.apache.org/)
 - [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
-```
